@@ -238,7 +238,7 @@ const ProjectsSection = ({ darkMode, openProjectModal }) => {
                             </div>
                             <div className="p-6">
                                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                                <p className="text-gray-200 dark:text-gray-300 mb-4">{project.description}</p>
+                                <p className="text-white-700 dark:text-white">{project.description}</p>
                                 <div className="flex flex-wrap gap-2 mb-4">
                                     {project.technologies.map((tech, i) => (
                                         <span key={i} className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm">
