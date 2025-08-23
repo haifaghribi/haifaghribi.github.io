@@ -30,12 +30,11 @@ const portfolioData = {
         {
             position: "Machine Learning Intern",
             company: "SOCRadar - Istanbul, Türkiye",
-            duration: "07.2025 - Present",
+            duration: "07.2025 - 08.2025",
             description: [
-                "Supporting the Machine Learning team in developing and improving AI-based tools and workflows.",
-                "Helping prepare and clean datasets for model training and evaluation.",
-                "Gaining hands-on experience in building and experimenting with ML models in a production-like environment.", 
-                "Collaborating with engineers and product team members to understand real-world use cases."
+                "Built an AI-powered GitHub PR review chatbot leveraging LLMs (Google Gemini) to automate code reviews, provide context-aware feedback from ClickUp tasks, and assign human reviewers, streamlining the PR process and reducing manual review time.",
+                "Implemented an automated LinkedIn fraud detection workflow using n8n and Google Gemini AI with NLP-based scoring, accurately identifying fake profiles and enabling scalable monitoring.",
+                "Engineered a secure Flask backend with modular MVC architecture, handling API keys, webhooks, and production-ready deployment for both projects."
             ]
         },
         {
@@ -88,6 +87,14 @@ const portfolioData = {
         }
     ],
     projects: [
+        {
+            title: "AI-powered GitHub PR review chatbot",
+            description: "An AI-powered chatbot that automates GitHub Pull Request reviews, provides context-aware feedback, and assigns human reviewers based on code quality analysis.",
+            technologies: ["Python", "Machine Learning", "Flask", "SQLAlchemy", "ClickUp API", "Google Gemini LLM"],
+            image: "https://images.pexels.com/photos/18069695/pexels-photo-18069695.png",
+            link: "https://github.com/haifaghribi/SOCRadarProject_GitHub_Bot",
+            details: "Designed and implemented a GitHub Pull Request review bot using LLMs (Google Gemini) to analyze code diffs for quality, best practices, and security. Integrated ClickUp API to fetch task descriptions for context-aware feedback. Automated posting of structured reviews and assignment of human reviewers. Built a secure Flask backend with SQLAlchemy for API key management and webhook handling, enabling production-ready deployment."
+        },
         {
             title: "House Price Prediction using Machine Learning",
             description: "An end-to-end ML pipeline that predicts real estate prices using regression algorithms, deployed through a Flask-powered web app.",
