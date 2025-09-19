@@ -15,14 +15,12 @@ const portfolioData = {
             degree: " B.Sc. in Computer Engineering",
             institution: "Marmara University - Istanbul, Türkiye",
             year: "2022 - Present",
-            gpa: "3.2/4.0",
             description: "Full Scholarship Student.\nRelevant coursework: Data Structures, Analysis of Algorithms, Computer Organization, Systems Programming, Software Engineering, Database Systems, Object-oriented Software Design, Probability and Statistics."
         },
         {
             degree: "High School Diploma",
             institution: "Lycée 2 mars 1934 - Sousse, Tunisia",
             year: "2016 - 2021",
-            gpa: "3.5/4.0",
             description: "Successfully obtained the Tunisian Baccalaureate with honors."
         }
     ],

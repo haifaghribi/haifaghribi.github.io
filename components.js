@@ -170,7 +170,6 @@ const EducationSection = ({ darkMode }) => {
                             <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800 shadow-lg' : 'bg-white shadow-md'}`}>
                                 <h3 className="text-xl font-bold mb-1">{edu.degree}</h3>
                                 <p className="text-lg font-semibold text-blue-600 dark:text-blue-300 mb-2">{edu.institution}</p>
-                                <p className="text-gray-600 dark:text-gray-300 mb-3">{edu.year} | GPA: {edu.gpa}</p>
                                 <p className="text-white-700 dark:text-white" style={{whiteSpace: 'pre-line'}}>{edu.description}</p>
                             </div>
                         </div>
