@@ -3,7 +3,7 @@ const portfolioData = {
     name: "Haifa Ghribi",
     title: "Senior Computer Engineering Student",
     about: "Motivated Computer Engineering Student with a growing expertise in Software Development, and Machine Learning. Eager to apply technical and soft skills to drive innovative solutions in professional settings.",
-    email: "haifaghribi02@gmail.com",
+    email: "hfghribi@gmail.com",
     phone: "+90 (534) 358 20 68",
     location: "Istanbul, Türkiye",
     social: {
